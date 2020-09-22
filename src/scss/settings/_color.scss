@@ -1,0 +1,17 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-link: #202C4A;
+  --color-link-visisted: #8B8B97;
+  --color-link-hover: #e53847;
+  //--color-link-active: ;
+  //--color-link-focus: ;
+
+  --color-bg-primary: var(--color-white);
+  --color-bg-secondaire: #f0f0f0;
+  --color-bg-tertiary: var(--color-link);
+
+  --color-text-primary: var(--color-white);
+  --color-text-secondary: var(--color-black);
+}
