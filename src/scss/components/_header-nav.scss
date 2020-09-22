@@ -1,0 +1,17 @@
+header {
+  background-color: var(--color-bg-primary);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  img {
+    width : 10%
+  }
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
