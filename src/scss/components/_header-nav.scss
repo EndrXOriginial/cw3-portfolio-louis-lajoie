@@ -6,12 +6,17 @@ header {
   display: flex;
   align-items: center;
 
+  width: 500px;
+  margin: 0 auto;
+
   img {
-    width : 10%
+    width : 20%;
+    margin: 20px;
   }
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
