@@ -8,3 +8,12 @@
 .hero img {
   width: 50%;
 }
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  font-size: var(--fz-h2);
+  margin-top: 20px;
+}
