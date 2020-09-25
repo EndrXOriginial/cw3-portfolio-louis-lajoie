@@ -5,13 +5,14 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
 
-  width: 500px;
+  //width: 500px;
   margin: 0 auto;
 
   img {
     width : 20%;
-    margin: 20px;
+    margin: 3px;
   }
 }
 
@@ -19,4 +20,23 @@ nav ul {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 376px) {
+  .logo {
+    flex-direction: column;
+
+    img {
+      width: 20%;
+    }
+  }
+
+  header .wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 0 10px;
+  }
 }

@@ -5,6 +5,7 @@
 }
 
 .competence {
+  width: 365px;
   img {
     width: 15%;
   }
@@ -14,4 +15,11 @@
   align-items: center;
 
   margin: var(--margin-large);
+}
+
+@media screen and (min-width: 376px) {
+  .competences {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }

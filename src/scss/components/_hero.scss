@@ -1,5 +1,8 @@
 .hero {
   background-color: var(--color-bg-secondaire);
+}
+
+.hero .wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,6 +10,7 @@
 
 .hero img {
   width: 50%;
+  margin: 0;
 }
 
 .hero h1 {
@@ -16,4 +20,21 @@
 .hero h2 {
   font-size: var(--fz-h2);
   margin-top: 20px;
+}
+
+.hero a {
+  padding: 20px;
+  background-color: var(--color-grad);
+}
+
+@media screen and (min-width: 376px) {
+  .text-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero .wrapper{
+    display: block;
+  }
 }
